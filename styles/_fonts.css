@@ -1,7 +1,6 @@
-:host {
+:root {
     font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 15px;
-
 
     /* heading text */
     --font-size-h1: 4rem;
@@ -21,8 +20,8 @@
      /* headline text */
     --font-size-headline-regular: 1.13rem ;
     --font-weight-headline-regular: regular;
-     --font-size-headline-medium: 1.13rem;
-     --font-weight-headline-medium: medium;
+    --font-size-headline-medium: 1.13rem;
+    --font-weight-headline-medium: medium;
 
 
     /* caption text */
