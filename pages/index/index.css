@@ -1,0 +1,69 @@
+/* MOBILE PORTRAIT: 380px -> 480px */
+/* MOBILE LANDSCAPE: 481 -> 767px */
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    
+    header {
+        width: 100vw;
+        height: 2.5rem;
+        padding: 1rem;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .navbar {
+        display: none; /* hide navbar initially*/
+        position: absolute;
+        width: 100%;
+        top: 2.5rem;
+        left: 0;
+
+        li {
+            list-style: none;
+            height: 2.5rem;
+            background-color: var(--tapped);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+
+        li:last-child {
+            background-color: var(--default);
+        }
+
+        li:last-child a:last-child {
+            color: white;
+        }
+    }
+
+    .burger-img {
+        display: block; /*hide close-img initially */
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .close-img {
+        display: none; /*hide close-img initially */
+        width: 2rem; 
+        height: 2rem;
+    }
+
+}
+
+
+
+
+/* TABLET PORTRAIT: 768px -> 1023px */
+/* TABLET LANDSCAPE 1024 -> 1279px */
+
+
+/* DESKTOP SMALL: 1280px -> 1439px */
+/* DESKTOP STANDARD:  1440px -> 1919px */
+/* DESKTOP LARGE - 1920px and up*/
