@@ -1,11 +1,12 @@
 :root {
     font-family: 'Roboto', 'Arial', sans-serif;
-    font-size: 15px;
+   
+    /* DESKTOP font-size: 15px; */
 
     /* heading text */
     --font-size-h1: 4rem;
     --font-size-h2: 3.33rem;
-    --font-size-h3: 2.67rem;
+    --font-size-h3: 2.66rem;
     --font-size-h4: 1.6rem;
     --font-weight-heading: bold;
 
@@ -14,21 +15,21 @@
     --font-size-body-intro-medium: 1.6rem;
     --font-weight-body-intro-medium: medium;
     --font-size-body-intro-regular: 1.33rem;
-    --font-weight-body-intro-regular: regular;
+    --font-weight-body-intro-regular: normal;
 
 
      /* headline text */
     --font-size-headline-regular: 1.13rem ;
-    --font-weight-headline-regular: regular;
+    --font-weight-headline-regular: normal;
     --font-size-headline-medium: 1.13rem;
     --font-weight-headline-medium: medium;
 
 
     /* caption text */
     --font-size-caption1-regular: 1rem;
-    --font-weight-caption1-regular: regular;
+    --font-weight-caption1-regular: normal;
     --font-size-caption2-regular: 0.86rem;
-    --font-weight-caption2-regular: regular;
+    --font-weight-caption2-regular: normal;
 }
 
 
@@ -54,19 +55,19 @@ h3 {
 
 h4 {
     font-size: var(--font-size-h4);
-  
 }
 
 
 /* body text */ 
 .body.intro.medium {
-    font-size: var(--font-size-body-intro-mediumbody-intro-medium);
+    font-size: var(--font-size-body-intro-medium);
     font-weight: var(--font-weight-body-intro-medium);
 }
 
 .body.intro.regular {
     font-size: var(--font-size-body-intro-regular);
     font-weight: var(--font-weight-body-intro-regular);
+    line-height: 150%;
 }
 
 
@@ -92,3 +93,4 @@ h4 {
     font-size: var(--font-size-caption2-regular);
     font-weight: var(--font-weight-caption2-regular);
 }
+
