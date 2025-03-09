@@ -35,6 +35,7 @@
 
 h1, h2, h3, h4 {
     font-weight: var(--font-weight-heading);
+    color: var(--dark);
 }
 
 
@@ -62,12 +63,20 @@ h4 {
 .body.intro.medium {
     font-size: var(--font-size-body-intro-medium);
     font-weight: var(--font-weight-body-intro-medium);
+    color: var(--dark);
+}
+
+.body.intro.medium.secondary {
+    font-size: var(--font-size-body-intro-medium);
+    font-weight: var(--font-weight-body-intro-medium);
+    color: var(--secondary);
 }
 
 .body.intro.regular {
     font-size: var(--font-size-body-intro-regular);
     font-weight: var(--font-weight-body-intro-regular);
     line-height: 150%;
+    color: var(--medium);
 }
 
 
@@ -75,11 +84,14 @@ h4 {
 .headline.regular {
     font-size: var(--font-size-headline-regular);
     font-weight: var(--font-weight-headline-regular);
+    color: var(--medium);
 }
 
 .headline.medium {
     font-size: var(--font-size-headline-medium);
     font-weight: var(--font-weight-headline-medium);
+    color: var(--dark);
+
 }
 
 
@@ -87,10 +99,15 @@ h4 {
 .caption1 {
     font-size: var(--font-size-caption1-regular)
     font-weight: var(--font-weight-caption1-regular);
+    color: var(--medium);
+
+    
 }
 
 .caption2 {
     font-size: var(--font-size-caption2-regular);
     font-weight: var(--font-weight-caption2-regular);
+    color: var(--medium);
+
 }
 
