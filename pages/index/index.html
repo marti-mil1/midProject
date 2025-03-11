@@ -167,76 +167,96 @@
         <section class="services-section">
             <h3>Our Services</h3>
 
-            <!-- UI design -->
-            <div class="service-card">
-                <div class="service-container">
-                    <div class="service-img UI-design"></div>
-                    <p class="body intro medium">User Interface Design</p>
-                    <p class="body intro regular">Circle provides you with a stunning user interface design that is accessible to everyone.</p>
-                    <a href="#" target="_blank">Learn more</a>
+            <div class="card-container">
+
+                <!-- UI design -->
+                <div class="service-card">
+                    <div class="service-container">
+                        <div class="service-img UI-design"></div>
+
+                            <p class="body intro medium">User Interface Design</p>
+                            <p class="body intro regular">Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+                      
+                        <a href="#" target="_blank">Learn more</a>
+                    </div>
                 </div>
+
+                <!-- UX design -->
+                <div class="service-card">
+                    <div class="service-container">
+                        <div class="service-img UX-design"></div>
+
+                            <p class="body intro medium">User Experience Design</p>
+                            <p class="body intro regular">Circle always focuses on delivering the best user experience to your customers.</p>
+                        
+                        <a href="#" target="_blank">Learn more</a>
+                    </div>
+                </div>
+
+                <!-- App dev -->
+                <div class="service-card">
+                    <div class="service-container">
+                        <div class="service-img app-dev"></div>
+
+                            <p class="body intro medium">Application Development</p>
+                            <p class="body intro regular">We develop high-quality mobile and web applications using the latest technology stack.</p>
+                                    
+                        <a href="#" target="_blank">Learn more</a>
+                    </div>
+                </div>
+
             </div>
 
-            <!-- UX design -->
-            <div class="service-card">
-                <div class="service-container">
-                    <div class="service-img UX-design"></div>
-                    <p class="body intro medium">User Experience Design</p>
-                    <p class="body intro regular">Circle always focuses on delivering the best user experience to your customers.</p>
-                    <a href="#" target="_blank">Learn more</a>
-                </div>
-            </div>
 
-            <!-- App dev -->
-            <div class="service-card">
-                <div class="service-container">
-                    <div class="service-img app-dev"></div>
-                    <p class="body intro medium">Application Development</p>
-                    <p class="body intro regular">We develop high-quality mobile and web applications using the latest technology stack.</p>
-                    <a href="#" target="_blank">Learn more</a>
-                </div>
-            </div>
 
         </section>
 
         <!-- CTA SECTION -->
         <section class="cta-section">
 
-            <div class="cta-section-container">
-                <div class="cta-section-text">
+            <div class="cta-container">
+                <div class="cta-caption">
                     <h3>Do you have any questions?</h3>
                     <p class="body intro regular">Let us help you!</p>
                 </div>
     
-                <div class="cta-form">
-                    <form action="/some-url" method="get">
-                        <input type="email" id="email" placeholder="Enter your email" pattern=".+@example\.com" class="headline regular">
-                        <!-- <label for="email">Subscribe</label> -->
-                        <button type="submit" class="headline medium">Subscribe</button>
-                    </form>
-                </div>
+               
+                <form action="/some-url" method="get" class="cta-form">
+                    <div class="textfield">
+                        <div class="mail-icon"></div>
+                        <input type="email" id="email" class="headline regular email" placeholder="Enter your email" pattern=".+@example\.com">
+            
+                    </div>
+                    <button type="submit" class="headline medium subscribe">Subscribe</button>
+                </form>
+               
                 
             </div>
             
         </section>
     
         <footer>
-            <div class="footer-address">
-                <div class="logo">
-                    <img class="logo-img" src="../../assets/logos/circle.svg" alt="circle-logo"><a href="#"></a>
+
+            <div class="footer-container">
+
+                <div class="footer-address">
+                    <div class="logo">
+                        <img class="logo-img" src="../../assets/logos/circle.svg" alt="circle-logo"><a href="#"></a>
+                    </div>
+                    <p class="headline regular">2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
                 </div>
-                <p class="headline regular">2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+        
+                <ul class="footer-list">
+                    <li class="headline regular"><a href="#" target="_blank">Team</a></li>
+                    <li class="headline regular"><a href="#" target="_blank">Press</a></li>
+                    <li class="headline regular"><a href="#" target="_blank">Services</a></li>
+                    <li class="headline regular"><a href="#" target="_blank">Projects </a></li>
+                    <li class="headline regular"><a href="#" target="_blank">About Us</a></li>
+                    <li class="headline regular"><a href="#" target="_blank">Privacy Policy</a></li>    
+                </ul>
+
             </div>
-    
-            <ul class="footer-list">
-                <li class="headline regular"><a href="#" target="_blank">Team</a></li>
-                <li class="headline regular"><a href="#" target="_blank">Press</a></li>
-                <li class="headline regular"><a href="#" target="_blank">Services</a></li>
-                <li class="headline regular"><a href="#" target="_blank">Projects </a></li>
-                <li class="headline regular"><a href="#" target="_blank">About Us</a></li>
-                <li class="headline regular"><a href="#" target="_blank">Privacy Policy</a></li>    
-            </ul>
-            
+
         </footer>
         
     <script src="./index.js"></script>
