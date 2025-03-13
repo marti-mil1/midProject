@@ -84,6 +84,7 @@ h4 {
 .headline.regular {
     font-size: var(--font-size-headline-regular);
     font-weight: var(--font-weight-headline-regular);
+    line-height: 150%;
     color: var(--medium);
 }
 
