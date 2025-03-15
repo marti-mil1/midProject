@@ -13,17 +13,5 @@ body, html {
 
 body {
     background-color: var(--light);
+    /* overflow-x: hidden; */
 }
-
-
-
-
-    
-
-
-
-
-
-
-
-
