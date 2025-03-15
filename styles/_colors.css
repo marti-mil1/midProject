@@ -1,4 +1,4 @@
-:host {
+:root {
     --default: #072AC8;
     --accent: #43D2FF;
     --hover: #A2D6F9;
@@ -9,5 +9,8 @@
     --light: #F2F4FC;
     --light-blue: #ECF7FF;
 
-    --secondary: #FFC600
+    --secondary: #FFC600;
+
+    --input-contact-form:#6B708D10;
+
 } 

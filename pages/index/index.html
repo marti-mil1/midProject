@@ -4,18 +4,284 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <link rel="stylesheet" href="./styles/_styles.css">
+    <link rel="stylesheet" href="../../styles/_styles.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="./index.js"></script>
- 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
 
-    <h1>index</h1>
+    <!-- HEADER -->
+    <header>
 
+        <div class="header-frame">
+
+            <div class="logo">
+                <a href="#">
+                    <img class="logo-img" src="../../assets/logos/circle.svg" alt="circle-logo">
+                </a>
+                
+            </div>
+
+            <!-- MOBILE NAVBAR -->
+            <nav class="navbar-mobile">
+                <ul class="body intro regular">
+                    <li><a href="../index/index.html">Home</a></li>
+                    <li><a href="#projects-section" target="_blank">Projects</a></li>
+                    <li><a href="#services-section" target="_blank">Services</a></li>
+                    <li><a href="#cta-section" target="_blank">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="burger-menu">
+                <img class="burger-img" src="../../assets/burger-menu/menu_24dp_072AC8_FILL0_wght400_GRAD0_opsz24.svg" alt="burger-menu"><a href="#"></a>
+                <img class="close-img" src="../../assets/burger-menu/close_24dp_072AC8_FILL0_wght400_GRAD0_opsz24.svg" alt="close-menu"><a href="#"></a>
+            </div>
+
+            <!-- TABLET & DESKTOP NAVBAR -->
+            <nav class="navbar-tablet-desktop">
+                <ul class="headline regular">
+                    <li><a class="home-link" href="../index/index.html">Home</a></li>
+                    <li><a href="#projects-section" target="_blank">Projects</a></li>
+                    <li><a href="#services-section" target="_blank">Services</a></li>
+                </ul>
+            </nav>
+
+            <a class="contact-us-link headline medium" href="#cta-section" target="_blank">Contact Us</a>
+
+        </div>
+
+    </header>
+        
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="hero-section-text">
+                <h1>Empower Your Business With Stunning Design!</h1>
+                <p class="body intro regular">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
+                <div class="links-container">
+                    <a class="get-in-touch-link headline-medium" href="#cta-section" target="_blank">Get in touch</a>
+                    <a class="project-link headline-medium" href="#" target="_blank">See our work</a>               
+                </div>
+            </div>
+
+            <div class="hero-section-img">
+                <div class="card-top-left"></div>
+                <div class="hero-img"></div>
+                <div class="card-bottom-right"></div>
+            </div>
+           
+        </section>
+
+        <!-- SPONSORS SECTION-->
+        <section class="sponsors-section">
+           
+            <a class="client-logo airbnb" href="https://www.airbnb.es" target="_blank" >
+                 <img class="sponsor-img" src="../../assets/logos/airbnb-logo.svg" alt="airbnb-logo">
+            </a>
+
+            <a class="client-logo google" href="https://google.es" target="_blank" >
+                <img class="sponsor-img" src="../../assets/logos/google-logo.svg" alt="google-logo">
+            </a>
+
+            <a class="client-logo microsoft" href="https://www.microsoft.com/es-es" target="_blank" >
+                <img class="sponsor-img" src="../../assets/logos/microsoft-logo.svg" alt="microsoft-logo">
+           </a>
+
+           <a class="client-logo fedex"href="https://www.fedex.com/es-es/home.html" target="_blank" >
+                <img class="sponsor-img" src="../../assets/logos/fedex-logo.svg" alt="fedex-logo">
+           </a>
+
+           <a class="client-logo amazon" href="https://www.amazon.es/" target="_blank" >
+                <img class="sponsor-img" src="../../assets/logos/amazon-logo.svg" alt="amazon-logo">
+           </a>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION-->
+        <section class="projects-section" id="projects-section">
+            <h3>Recent Projects</h3>
+
+            <div class="projects-container">
+                <!-- Simplify -->
+                <div class="project-card">
+                    <div class="project-img simplify"></div>
+
+                    <div class="project-info">
+                        <div class="project-caption">
+                            <p class="body intro medium">Simplify</p>
+                            <p class="headline regular">UI Design & App Development</p>
+                        </div>
+                        <a href="#" target="_blank">Learn more</a>
+                    </div>
+                </div>
+
+
+                <!-- Dashcoin -->
+                <div class="project-card">
+                    <div class="project-img dashcoin"></div>
+
+                    <div class="project-info">
+                        <div class="project-caption">
+                            <p class="body intro medium">Dashcoin</p>
+                            <p class="headline regular">Web Development</p>
+                        </div>
+                        <a href="#" target="_blank">Learn more</a>
+                    </div>
+                </div>
+
+                <!-- Vectorify -->
+                <div class="project-card">
+                    <div class="project-img vectorify"></div>
+
+                    <div class="project-info">
+                        <div class="project-caption">
+                            <p class="body intro medium">Vectorify</p>
+                            <p class="headline regular">User Experience Design</p>
+                        </div>
+                        <a href="#" target="_blank">Learn more</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TESTIMONIAL SECTION -->
+        <section class="testimonial-section">
+
+            <div class="memojis-container">
+                <div class="memoji-icon top-left"></div>
+                <div class="memoji-icon top-right"></div>
+                <div class="memoji-icon bottom-left"></div>
+                <div class="memoji-icon bottom-right"></div>
+            </div>
+
+            <div class="testimonial-container">
+    
+                <h3>Hear What Our Clients Have to Say</h3>
+    
+                <p class="body intro medium secondary">“Circle helped us through every stage of our startup. We really enjoyed working with you.”</p>
+                
+                <div class="testimonial-profile">
+                    <div class="testimonial-portrait"></div>
+                    <div class="testimonial-info">
+                        <p class="headline regular">Kristing Watson</p>
+                        <p class="caption2">Booking.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES SECTION -->
+        <section class="services-section" id="services-section">
+            <h3>Our Services</h3>
+
+            <div class="card-container">
+
+                <!-- UI design -->
+                <div class="service-card">
+                    <div class="service-container">
+                        <div class="service-img UI-design"></div>
+
+                            <p class="body intro medium">User Interface Design</p>
+                            <p class="body intro regular">Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+                      
+                        <a href="#" target="_blank">Learn more</a>
+                    </div>
+                </div>
+
+                <!-- UX design -->
+                <div class="service-card">
+                    <div class="service-container">
+                        <div class="service-img UX-design"></div>
+
+                            <p class="body intro medium">User Experience Design</p>
+                            <p class="body intro regular">Circle always focuses on delivering the best user experience to your customers.</p>
+                        
+                        <a href="#" target="_blank">Learn more</a>
+
+                    </div>
+                </div>
+
+                <!-- App dev -->
+                <div class="service-card">
+                    <div class="service-container">
+                        <div class="service-img app-dev"></div>
+
+                            <p class="body intro medium">Application Development</p>
+                            <p class="body intro regular">We develop high-quality mobile and web applications using the latest technology stack.</p>
+                                    
+                        <a href="#" target="_blank">Learn more</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="cta-section" id="cta-section">
+
+            <div class="cta-container">
+                <div class="cta-caption">
+                    <h3>Do you have any questions?</h3>
+                    <p class="body intro regular">Let us help you!</p>
+                </div>
+    
+               
+                <form action="/some-url" method="get" class="cta-form">
+
+                    <div class="textfield">
+                        <div class="mail-icon"></div>
+                        <input type="email" id="email" class="headline regular email" placeholder="Enter your email" pattern=".+@example\.com">
+                    </div>
+
+                    <button type="submit" class="headline medium subscribe">Subscribe</button>
+                </form>
+               
+                
+            </div>
+            
+        </section>
+    
+        <footer>
+
+            <div class="footer-container">
+
+                <div class="footer-address">
+                    <div class="logo">
+                        <img class="logo-img" src="../../assets/logos/circle.svg" alt="circle-logo"><a href="#header"></a>
+                    </div>
+                    <p class="headline regular">2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+                </div>
+        
+                <ul class="footer-list">
+                    <li class="headline regular">
+                        <a href="#" target="_blank">Team</a>
+                        <a href="#" target="_blank">Press</a>
+                    </li>
+                    <li class="headline regular">
+                        <a href="#services-section" target="_blank">Services</a>
+                        <a href="#projects-section" target="_blank">Projects </a>
+                    </li>
+                    <li class="headline regular">
+                        <a href="#" target="_blank">About Us</a>
+                        <a href="#" target="_blank">Privacy Policy</a>
+                    </li>    
+                </ul>
+
+            </div>
+
+        </footer>
+        
+    <script src="./index.js"></script>
 </body>
 </html>
