@@ -1,0 +1,387 @@
+/* DESKTOP STANDARD:  1440px -> 1919px */
+/* DESKTOP LARGE - 1920px and up */
+
+@media screen and (min-width: 1440px) {
+
+    :root {
+        font-size: 15px;
+    }
+
+    /* HEADER */
+    header {
+        background-color: pink;
+
+       
+        width: 100vw;
+        height: 8.13rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+
+        .header-frame {
+            background-color: antiquewhite;
+            width: 73.26rem;
+            height: 3.46rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo-img {
+                width: 4.03rem;
+            }
+
+
+            .navbar-mobile {
+                display: none;
+            }
+
+            .burger-menu {
+                display: none;
+            }
+
+            /* TABLET & DESKTOP NAVBAR */
+            .navbar-tablet-desktop {
+
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 19.66rem;
+                    height: 1.46rem;
+            
+                }
+
+                li {
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;                    
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: var(--medium);
+                }
+            }
+
+            .contact-us-link {
+                width: 10rem;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--default);
+                text-decoration: none;
+                color: white;
+                line-height: 130%;
+            }
+        }
+    } 
+
+    /* PROJECT DETAIL SECTION */
+    .project-detail-section {
+        background-color: aquamarine;
+
+        width: 73.33rem;
+        height: 75.46rem;
+        margin: 9.73rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .project-main-info {
+            background-color: yellowgreen;
+
+            width: 100%;
+            height: 7.86rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .project-info {
+                background-color: azure;
+                
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                .project-field {
+                    color: var(--medium)
+                }
+
+                p span {
+                    color: var(--dark);
+                }
+
+            }
+
+        }
+
+        .project-extended-content {
+            background-color: violet;
+
+            width: 100%;
+            height: 62.26rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .project-img.cover {
+                width: 100%;
+                height: 29.6rem;
+                -webkit-box-shadow: 0px 38.78px 77.55px 0px rgba(0,0,0,0.1);
+                -moz-box-shadow: 0px 38.78px 77.55px 0px rgba(0,0,0,0.1);
+                box-shadow: 0px 38.78px 77.55px 0px rgba(0,0,0,0.1);
+                
+            
+                &.simplify {
+                    background-image: url('../../assets/projects-section/1.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    
+                }
+            }   
+
+            .project-description {
+                background-color: skyblue;
+
+                width: 100%;
+                height: 28rem;
+            }
+        }
+    }
+
+      /* OTHER PROJECTS */
+      .projects-section {
+        background-color: beige;
+
+        width: 73.33rem;
+        height: 37.4rem;
+        margin: 7.53rem auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h3 {
+            background-color: red;
+        }
+
+        .projects-container {
+            background-color: deepskyblue;
+            width: 100%;
+            height: 29.6rem;
+            display: flex;
+            justify-content: space-between;
+
+            .project-card {
+                background-color: white;
+                width: 22.66rem;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                -webkit-box-shadow: 0px 38.7px 77.55px 0px rgba(0,0,0,0.1);
+                -moz-box-shadow: 0px 38.7px 77.55px 0px rgba(0,0,0,0.1);
+                box-shadow: 0px 38.7px 77.55px 0px rgba(0,0,0,0.1);
+
+    
+                .project-img {
+                    background-color: chartreuse;
+
+                    width: 100%;
+                    height: 24rem;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;    
+        
+                    &.orbit {
+                        background-image: url('../../assets/projects-section/4.jpg');
+                    }
+        
+                    &.purify {
+                        background-image: url('../../assets/projects-section/5.jpg');
+                    }
+        
+                    &.criptoPie {
+                        background-image: url('../../assets/projects-section/6.jpg');
+                    }
+                }
+        
+                .project-info {
+                    background-color: fuchsia;
+    
+                    width: 100%;
+                    padding: 2rem 2rem;
+                    height: 15.33rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+            
+                    .project-caption {
+                        background-color: orange;
+
+                        width: 15rem;
+                        height: 4.26rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+        
+                    a {
+                        text-decoration: none;
+                        color: var(--default);
+                        background-color: darkcyan;
+                        
+                    }
+                }
+            }   
+        }
+    }
+
+    /* CTA SECTION */
+    .cta-section {
+        width: 88rem;
+        background-color: var(--secondary);
+        height: 33.33rem;
+        margin: 13.33rem auto ;
+        padding: 9.06rem 7.33rem;
+
+        .cta-container {
+            width: 100%;
+            background-color: greenyellow;
+            height: 15.9rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+
+            .cta-caption {
+                background-color: skyblue;
+
+                width: 100%;
+                height: 7.26rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                h3 {
+                    width: 100%;
+                    background-color: blueviolet;
+                }
+
+                p {
+                    width: 100%;
+                    height: 2rem;
+                }
+                
+            }
+
+            .cta-form {
+                width: 40.7rem;
+                height: 5.33rem;
+                background-color: pink;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .textfield, .subscribe {
+                    height: 5.33rem;
+                    border: none;
+                }
+
+                .textfield {
+                    background-color: white;
+                    width: 26.2rem;
+                    padding: 2rem 2.16rem;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.66rem;
+
+                    input {
+                        width: 100%;
+                    }
+
+                    .mail-icon {
+                        width: 2.3rem;
+                        height: 2.3rem;
+                        background-image: url('../../assets/newsletter/icon/mail.svg');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover ; 
+                    }
+
+                    .email {
+                        border: none;
+                    }
+
+                }
+
+                .subscribe {
+                    background-color: var(--default);
+                    width: 13.2rem;
+                    color: white;
+                }
+            }
+        }
+    }
+
+     /* FOOTER */
+     footer {
+        background-color: cornflowerblue;
+                
+        width: 73.33rem;
+        height: 7.46rem;
+        margin: 13.33rem auto 7.46rem;
+    
+        .footer-container {
+            background-color: pink;
+            height: 100%;
+
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 3.33rem;
+
+            .footer-address {
+                background-color:deeppink;
+
+                width: 17.33rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .logo-img {
+                    width: 6.55rem;   
+                }
+            }
+
+            .footer-list {
+                background-color: peachpuff;
+
+                width: 29rem;
+                height: 100%;
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: var(--medium);
+                }
+            }
+        }
+    }
+}
