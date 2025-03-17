@@ -11,7 +11,7 @@
     header {
         background-color: pink;
 
-        width: 100vw;
+        width: 100%;
         height: 8rem;
         padding: 0 1rem;
         display: flex;
@@ -90,7 +90,7 @@
     .hero-section {
         background-color: aqua;
 
-        width: 100vw;
+        width: 100%;
         height: 42rem;
         padding: 0 1rem;
         margin: 6rem 0;
@@ -148,7 +148,7 @@
     .sponsors-section {
         background-color: azure;
         
-        width: 100vw;
+        width: 100%;
         padding: 0 1rem;
         display: flex;
         justify-content: space-around;
@@ -200,7 +200,7 @@
     .projects-section {
         background-color: beige;
 
-        width: 100vw;
+        width: 100%;
         height: 147.7rem;
         margin: 6rem 0;
         padding: 0 1rem;
@@ -277,7 +277,7 @@
     /* TESTIMONIAL SECTION */
     .testimonial-section {
         background-color: var(--dark);
-        width: 100vw;
+        width: 100%;
         height: 43.2rem;
         display: flex;
         justify-content: center;
@@ -344,7 +344,7 @@
     .services-section {
         background-color: cornsilk;
 
-        width: 100vw;
+        width: 100%;
         height: 140.1rem;
         margin: 6rem 0;
         padding: 0 1rem;
@@ -419,7 +419,7 @@
 
     /* CTA SECTION */
     .cta-section {
-        width: 100vw;
+        width: 100%;
         background-color: var(--secondary);
         height: 46.2rem;
         padding: 5rem 1rem;
@@ -508,9 +508,9 @@
     footer {
         background-color: cornflowerblue;
 
-        width: 100vw;
+        width: 100%;
         height: 46.8rem;
-        margin: 6rem 0;
+        margin: 6rem 0 3rem;
         padding: 0 1rem;
 
         .footer-container {
@@ -524,8 +524,8 @@
 
             .footer-address {
                 background-color:deeppink;
-    
-                width: 100%;
+     
+                width: 26rem;
                 height: 11.2rem;
                 display: flex;
                 flex-direction: column;
@@ -535,22 +535,27 @@
                     width: 9.8rem;   
                 }
             }
-    
-            .footer-list {
-                background-color: darksalmon;
-    
+
+            .footer-list-mobile {
+                background-color: peachpuff;
+
+                width: 100%;
                 height: 30.6rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 list-style-type: none;
-    
+
                 a {
                     text-decoration: none;
                     color: var(--medium)
                 }
             }
-        }  
+
+            .footer-list-tablet-desktop {
+                display: none;
+            }  
+        }
     }
 }
 
@@ -570,7 +575,7 @@
     header {
         background-color: pink;
 
-        width: 100vw;
+        width: 100%;
         height: 5.33rem;
         padding: 0.93rem 1.33rem;
         display: flex;
@@ -646,7 +651,7 @@
     .hero-section {
         background-color: aquamarine;
 
-        width: 100vw;
+        width: 100%;
         height: 20.8rem;
         padding: 0 1.33rem;
         margin: 4rem 0;
@@ -703,7 +708,7 @@
     .sponsors-section {
         background-color: darkkhaki;
         
-        width: 100vw;
+        width: 100%;
         height: 3rem;
         margin: 8.66rem auto;
         display: flex;
@@ -753,7 +758,7 @@
      .projects-section {
         background-color: beige;
 
-        width: 100vw;
+        width: 100%;
         height: 32.69rem;
         margin: 4rem 0;
         padding: 0 1.33rem;
@@ -840,7 +845,7 @@
     /* TESTIMONIAL SECTION */
     .testimonial-section {
         background-color: var(--dark);
-        width: 100vw;
+        width: 100%;
         margin: 4rem 0;
         height: 26.26rem;
         display: flex;
@@ -913,7 +918,7 @@
     .services-section {
         background-color: cornsilk;
 
-        width: 100vw;
+        width: 100%;
         height: 36.7rem;
         margin: 6rem 0;
         padding: 0 1rem;
@@ -992,7 +997,7 @@
 
     /* CTA SECTION */
     .cta-section {
-        width: 100vw;
+        width: 100%;
         background-color: var(--secondary);
         height: 22.6rem;
         padding: 3.33rem 2rem;
@@ -1078,33 +1083,30 @@
         }
     }
 
-    /* FOOTER */
-    footer {
+   /* FOOTER */
+   footer {
         background-color: cornflowerblue;
                 
-        width: 100vw;
+        width: 100%;
         height: 7.46rem;
-        margin: 4rem 0;
+        margin: 4rem 0 2.53rem;
         padding: 0 1.33rem;
-    
+
         .footer-container {
             background-color: pink;
-            height: 100%;
 
             width: 100%;
+            height: 100%;
             display: flex;
             justify-content: space-between;
             gap: 3.33rem;
 
-            .footer-address,.footer-list {
-                flex-basis: 22.6rem;
-                height: 100%;
-                flex-grow: 1;
-            }
-
             .footer-address {
                 background-color:deeppink;
-        
+
+                flex-basis: 22.6rem;
+                flex-grow: 1;
+                height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -1115,24 +1117,30 @@
                 }
             }
 
-            .footer-list {
+            .footer-list-mobile {
+                display: none;
+            }
+
+            .footer-list-tablet-desktop {
                 background-color: peachpuff;
 
-                width: 100%;
+                flex-basis: 22.6rem;
+                flex-grow: 1;
                 height: 100%;
+                list-style-type: none;
                 display: flex;
                 justify-content: space-between;
-                flex-wrap: wrap;
-                list-style-type: none;
 
                 li {
-                    width: 33%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
                 }
-
 
                 a {
                     text-decoration: none;
-                    color: var(--medium)
+                    color: var(--medium);
                 }
             }
         }
@@ -1151,9 +1159,7 @@
 
     /* HEADER */
     header {
-        background-color: pink;
-
-        width: 100vw;
+        width: 100%;
         height: 8.13rem;
         display: flex;
         justify-content: center;
@@ -1161,7 +1167,6 @@
 
 
         .header-frame {
-            background-color: antiquewhite;
             width: 73.26rem;
             height: 3.46rem;
             margin: 0 auto;
@@ -1768,13 +1773,17 @@
         }
     }
 
-     /* FOOTER */
-     footer {
+    /* FOOTER */
+    footer {
         background-color: cornflowerblue;
                 
         width: 73.33rem;
         height: 7.46rem;
+<<<<<<< Updated upstream
         margin: 13.33rem auto 7.46rem;
+=======
+        margin: 10.26rem auto 7.46rem;
+>>>>>>> Stashed changes
     
         .footer-container {
             background-color: pink;
@@ -1799,7 +1808,11 @@
                 }
             }
 
-            .footer-list {
+            .footer-list-mobile {
+                display: none;
+            }
+
+            .footer-list-tablet-desktop {
                 background-color: peachpuff;
 
                 width: 29rem;

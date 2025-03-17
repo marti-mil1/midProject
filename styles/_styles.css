@@ -7,11 +7,13 @@
     box-sizing: border-box;
 }
 
-body, html {
-    width: 100vw;
+html {
+    width: 100%;
+    min-width: 320px;
 }
 
 body {
+    width: 100%;
     background-color: var(--light);
     /* overflow-x: hidden; */
 }
