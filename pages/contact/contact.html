@@ -3,13 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="./styles/_styles.css">
-    <link rel="stylesheet" href="./contact.css">
+    <title>Contact Us</title>
 
-<body>
+    <link rel="stylesheet" href="../../styles/_styles.css">
+    <link rel="stylesheet" href="../contact/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
     
-    <h1>contact page</h1>
 
-</body>
+    <body>
+
+        <!-- HEADER -->
+        <header>
+
+            <div class="header-frame">
+
+                <div class="logo">
+                    <a href="../index/index.html">
+                        <img class="logo-img" src="../../assets/logos/circle.svg" alt="circle-logo">
+                    </a>
+                    
+                </div>
+
+                <!-- MOBILE NAVBAR -->
+                <nav class="navbar-mobile">
+                    <ul class="body intro regular">
+                        <li><a href="../index/index.html">Home</a></li>
+                        <li><a href="../project-detail/projectDetail.html" target="_blank">Projects</a></li>
+                        <li><a href="../index/index.html#services-section" target="_blank">Services</a></li>
+                        <li><a href="../contact/contact.html" target="_blank">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+                <div class="burger-menu">
+                    <img class="burger-img" src="../../assets/burger-menu/menu_24dp_072AC8_FILL0_wght400_GRAD0_opsz24.svg" alt="burger-menu"><a href="#"></a>
+                    <img class="close-img" src="../../assets/burger-menu/close_24dp_072AC8_FILL0_wght400_GRAD0_opsz24.svg" alt="close-menu"><a href="#"></a>
+                </div>
+
+                <!-- TABLET & DESKTOP NAVBAR -->
+                <nav class="navbar-tablet-desktop">
+                    <ul class="headline regular">
+                        <li><a class="home-link" href="../index/index.html">Home</a></li>
+                        <li><a href="../project-detail/projectDetail.html" target="_blank">Projects</a></li>
+                        <li><a href="../index/index.html#services-section" target="_blank">Services</a></li>
+                    </ul>
+                </nav>
+
+                <a class="contact-us-link headline medium" href="#cta-section" target="_blank">Contact Us</a>
+
+            </div>
+
+        </header>
+
+        <!-- CONTACT US SECTION-->
+        <section class="contact-us-section">
+            
+            <h1>Contact Us</h1>
+
+            <form action="/some-url" method="get" class="contact-form">
+
+                <!-- FULL NAME -->
+                <div class="fullname">
+                    <label for="fullname" class="body intro regular">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" class="headline regular" required>
+                </div>
+
+
+                <!-- MAIL & PHONE -->
+                <div class="mail-and-phone">
+                     <!-- Mail -->
+                    <div class="mail">
+                        <label for="email" class="body intro regular">Email</label>
+                        <input type="email" id="email" class="headline regular" placeholder="Enter your email address" required>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="phone">
+                        <label for="phone" class="body intro regular">Phone</label>
+                        <input type="tel" id="phone" name="phone" class="headline regular" placeholder="Enter your phone number" required>
+                    </div>
+                     
+                </div>
+
+                <!-- MESSAGE -->
+                <div class="message">
+                    <label for="message" class="body intro regular">Message</label>
+                    <textarea id="message" name="message" class="headline regular" placeholder="Write your message here ...." required></textarea>
+                </div>
+
+                <button type="submit" class="headline medium subscribe">Subscribe</button>
+
+            </form>
+
+        </section>
+        
+
+        <footer>
+    
+            <div class="footer-container">
+    
+                <div class="footer-address">
+                    <div class="logo">
+                        <a href="../index/index.html">
+                            <img class="logo-img" src="../../assets/logos/circle.svg" alt="circle-logo">
+                        </a>
+                        
+                    </div>
+                    <p class="headline regular">2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+                </div>
+
+
+                <!-- MOBILE FOOTER LIST -->   
+                <ul class="footer-list-mobile">
+                    <li class="headline regular">
+                        <a href="#">Team</a>
+                    </li>
+                    <li class="headline regular">
+                        <a href="#">Press</a>
+                    </li>
+                    <li class="headline regular">
+                        <a href="../index/index.html#services-section">Services</a>
+                    </li>
+                    <li class="headline regular">
+                        <a href="../project-detail/projectDetail.html">Projects </a>
+                    </li>
+                    <li class="headline regular">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="headline regular">
+                        <a href="#">Privacy Policy</a>
+                    </li>    
+                </ul>
+
+
+
+                <!-- TABLET & DESKTOP FOOTER LIST -->   
+                <ul class="footer-list-tablet-desktop">
+                    <li class="headline regular">
+                        <a href="#">Team</a>
+                        <a href="#">Press</a>
+                    </li>
+                    <li class="headline regular">
+                        <a href="../index/index.html#services-section">Services</a>
+                        <a href="../project-detail/projectDetail.html">Projects </a>
+                    </li>
+                    <li class="headline regular">
+                        <a href="#">About Us</a>
+                        <a href="#">Privacy Policy</a>
+                    </li>    
+                </ul>
+    
+            </div>
+    
+        </footer>
+            
+        <script src="../index/index.js"></script>
+       
+    </body>
+
 </html>

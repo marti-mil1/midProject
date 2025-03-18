@@ -13,34 +13,48 @@
 
 <body>
 
-    <!-- HEADER -->
+   <!-- HEADER -->
     <header>
 
         <div class="header-frame">
 
             <div class="logo">
-                <a href="#">
+                <a href="../index/index.html">
                     <img class="logo-img" src="../../assets/logos/circle.svg" alt="circle-logo">
                 </a>
                 
+            </div>
+
+            <!-- MOBILE NAVBAR -->
+            <nav class="navbar-mobile">
+                <ul class="body intro regular">
+                    <li><a href="../index/index.html">Home</a></li>
+                    <li><a href="../project-detail/projectDetail.html">Projects</a></li>
+                    <li><a href="#services-section">Services</a></li>
+                    <li><a href="../contact/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="burger-menu">
+                <img class="burger-img" src="../../assets/burger-menu/menu_24dp_072AC8_FILL0_wght400_GRAD0_opsz24.svg" alt="burger-menu"><a href="#"></a>
+                <img class="close-img" src="../../assets/burger-menu/close_24dp_072AC8_FILL0_wght400_GRAD0_opsz24.svg" alt="close-menu"><a href="#"></a>
             </div>
 
             <!-- TABLET & DESKTOP NAVBAR -->
             <nav class="navbar-tablet-desktop">
                 <ul class="headline regular">
                     <li><a class="home-link" href="../index/index.html">Home</a></li>
-                    <li><a href="#projects-section" target="_blank">Projects</a></li>
-                    <li><a href="#services-section" target="_blank">Services</a></li>
+                    <li><a href="../project-detail/projectDetail.html">Projects</a></li>
+                    <li><a href="#services-section">Services</a></li>
                 </ul>
             </nav>
 
-            <a class="contact-us-link headline medium" href="#cta-section" target="_blank">Contact Us</a>
+            <a class="contact-us-link headline medium" href="../contact/contact.html">Contact Us</a>
 
         </div>
 
     </header>
     
-
     <!-- PROJECT DETAIL SECTION-->
     <section class="project-detail-section simplify">
         <div class="project-main-info">
@@ -53,7 +67,9 @@
         </div>
        
         <div class="project-extended-content">
-            <div class="project-img cover simplify"></div>
+            <div class="project-img cover simplify">
+                <div class="project-img filter simplify"></div>
+            </div>
 
             <div class="project-description">
                 <p class="body intro regular">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt quix duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
@@ -67,8 +83,7 @@
 
     <!-- OTHER PROJECTS SECTION-->
     <section class="projects-section" id="projects-section">
-
-    <h3>Other Projects</h3>
+        <h3>Other Projects</h3>
 
         <div class="projects-container">
             <!-- Orbit -->
@@ -80,10 +95,9 @@
                         <p class="body intro medium">Orbit</p>
                         <p class="headline regular">UI Design</p>
                     </div>
-                    <a href="#" target="_blank">Learn more</a>
+                    <a href="#">Learn more</a>
                 </div>
             </div>
-
 
             <!-- Purify -->
             <div class="project-card">
@@ -94,7 +108,7 @@
                         <p class="body intro medium">Purify</p>
                         <p class="headline regular">UI/UX Design</p>
                     </div>
-                    <a href="#" target="_blank">Learn more</a>
+                    <a href="#">Learn more</a>
                 </div>
             </div>
 
@@ -104,10 +118,10 @@
 
                 <div class="project-info">
                     <div class="project-caption">
-                        <p class="body intro medium">CryptoPie</p>
+                        <p class="body intro medium">CriptoPie</p>
                         <p class="headline regular">App Development</p>
                     </div>
-                    <a href="#" target="_blank">Learn more</a>
+                    <a href="#">Learn more</a>
                 </div>
             </div>
 
@@ -115,7 +129,8 @@
 
     </section>
 
-     <!-- CTA SECTION -->
+
+    <!-- CTA SECTION -->
     <section class="cta-section" id="cta-section">
 
         <div class="cta-container">
@@ -134,36 +149,70 @@
                 <button type="submit" class="headline medium subscribe">Subscribe</button>
             </form>
             
-            
         </div>
             
     </section>
     
     <footer>
-
+    
         <div class="footer-container">
 
             <div class="footer-address">
                 <div class="logo">
-                    <img class="logo-img" src="../../assets/logos/circle.svg" alt="circle-logo"><a href="#header"></a>
+                    <a href="../index/index.html">
+                        <img class="logo-img" src="../../assets/logos/circle.svg" alt="circle-logo">
+                    </a>
+                    
                 </div>
                 <p class="headline regular">2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
             </div>
-    
-            <ul class="footer-list">
-                <li class="headline regular"><a href="#" target="_blank">Team</a></li>
-                <li class="headline regular"><a href="#" target="_blank">Press</a></li>
-                <li class="headline regular"><a href="#services-section" target="_blank">Services</a></li>
-                <li class="headline regular"><a href="#projects-section" target="_blank">Projects </a></li>
-                <li class="headline regular"><a href="#" target="_blank">About Us</a></li>
-                <li class="headline regular"><a href="#" target="_blank">Privacy Policy</a></li>    
+
+
+            <!-- MOBILE FOOTER LIST -->   
+            <ul class="footer-list-mobile">
+                <li class="headline regular">
+                    <a href="#" target="_blank">Team</a>
+                </li>
+                <li class="headline regular">
+                    <a href="#" target="_blank">Press</a>
+                </li>
+                <li class="headline regular">
+                    <a href="./../index/index.html#services-section">Services</a>
+                </li>
+                <li class="headline regular">
+                    <a href="../project-detail/projectDetail.html" target="_blank">Projects </a>
+                </li>
+                <li class="headline regular">
+                    <a href="#" target="_blank">About Us</a>
+                </li>
+                <li class="headline regular">
+                    <a href="#" target="_blank">Privacy Policy</a>
+                </li>    
+            </ul>
+
+
+
+            <!-- TABLET & DESKTOP FOOTER LIST -->   
+            <ul class="footer-list-tablet-desktop">
+                <li class="headline regular">
+                    <a href="#" target="_blank">Team</a>
+                    <a href="#" target="_blank">Press</a>
+                </li>
+                <li class="headline regular">
+                    <a href="../index/index.html#services-section" target="_blank">Services</a>
+                    <a href="../project-detail/projectDetail.html" target="_blank">Projects </a>
+                </li>
+                <li class="headline regular">
+                    <a href="#" target="_blank">About Us</a>
+                    <a href="#" target="_blank">Privacy Policy</a>
+                </li>    
             </ul>
 
         </div>
 
     </footer>
         
-    <script src="./index.js"></script>
+    <script src="../index/index.js"></script>
    
 </body>
 </html>
