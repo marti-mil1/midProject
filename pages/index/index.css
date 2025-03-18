@@ -609,9 +609,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: var(--default);
                 text-decoration: none;
-                color: white;
                 line-height: 130%;
             }
         }
@@ -1364,7 +1362,7 @@
 
                 &:hover {
                     transform: translateY(-0.5rem);
-                    transition: transform ease-in-out 0.5s;
+                    transition: transform ease-in-out 0.4s;
                 }
 
     
@@ -1559,7 +1557,7 @@
 
                 &:hover {
                     transform: translateY(-0.5rem);
-                    transition: transform ease-in-out 0.5s;
+                    transition: transform ease-in-out 0.4s;
                 }
     
                 .service-container {
