@@ -45,3 +45,9 @@ a {
         transition: transform ease-in-out 0.4s;
     }
 }
+
+@keyframes flip-service-icon {
+    from {
+        
+    }
+}
