@@ -24,6 +24,7 @@ a {
 }
 
 .contact-us-link, .get-in-touch-link, .subscribe, .textfield {
+
     &:hover {
         border-radius: 20px;
         transition: all ease-in-out 0.2s;
@@ -46,8 +47,41 @@ a {
     }
 }
 
-@keyframes flip-service-icon {
-    from {
-        
+@keyframes rotate-service-img {
+    0% {
+        transform: rotate(0deg);   
+    }
+
+    50% {
+        transform: rotate(30deg);   
+    }
+
+    100% {
+        transform: rotate(0deg);   
     }
 }
+
+.service-img {
+    animation: rotate-service-img 1s infinite;
+}
+
+
+@keyframes flip-mail-icon {
+    0% {
+        transform: rotateY(0deg);   
+    }
+
+    50% {
+        transform: rotateY(180deg);   
+    }
+
+    100% {
+        transform: rotateY(0deg);   
+    }
+}
+
+.mail-icon {
+    animation: flip-mail-icon 2s infinite;
+}
+
+
