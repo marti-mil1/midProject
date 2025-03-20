@@ -1,1 +1,1 @@
-# midProject
+# MidProject
