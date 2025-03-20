@@ -274,13 +274,10 @@
                 justify-content: space-between;
                 align-items: center;
 
-                .textfield, .subscribe {
+                .textfield {
                     width: 100%;
                     height: 8rem;
                     border: none;
-                }
-
-                .textfield {
                     background-color: white;
                     padding: 3rem 2.75rem;
                     display: flex;
@@ -306,6 +303,9 @@
                 }
 
                 .subscribe {
+                    width: 100%;
+                    height: 8rem;
+                    border: none;
                     background-color: var(--default);
                     color: white;
                 }
@@ -625,15 +625,12 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-
-                .textfield, .subscribe {
-                    height: 5.33rem;
-                    border: none;
-                }
-
+                
                 .textfield {
                     background-color: white;
                     width: 26.2rem;
+                    height: 5.33rem;
+                    border: none;
                     padding: 2rem 2.16rem;
                     display: flex;
                     align-items: center;
@@ -655,12 +652,13 @@
                     .email {
                         border: none;
                     }
-
                 }
 
                 .subscribe {
                     background-color: var(--default);
                     width: 13.2rem;
+                    height: 5.33rem;
+                    border: none;
                     color: white;
                 }
             }
@@ -899,12 +897,6 @@
                 -webkit-box-shadow: 0px 38.7px 77.55px 0px rgba(0,0,0,0.1);
                 -moz-box-shadow: 0px 38.7px 77.55px 0px rgba(0,0,0,0.1);
                 box-shadow: 0px 38.7px 77.55px 0px rgba(0,0,0,0.1);
-
-                &:hover {
-                    transform: translateY(-0.5rem);
-                    transition: transform ease-in-out 0.5s;
-                }
-
     
                 .project-img {
                     width: 100%;
@@ -995,18 +987,15 @@
                 justify-content: space-between;
                 align-items: center;
 
-                .textfield, .subscribe {
-                    height: 5.33rem;
-                    border: none;
-                }
-
                 .textfield {
                     background-color: white;
                     width: 26.2rem;
+                    height: 5.33rem;
                     padding: 2rem 2.16rem;
                     display: flex;
                     align-items: center;
                     gap: 0.66rem;
+                    border: none;
 
                     input {
                         width: 100%;
@@ -1027,8 +1016,10 @@
                 }
 
                 .subscribe {
-                    background-color: var(--default);
                     width: 13.2rem;
+                    height: 5.33rem;
+                    border: none;
+                    background-color: var(--default);
                     color: white;
                 }
             }
