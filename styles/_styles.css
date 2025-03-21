@@ -21,6 +21,22 @@ body {
 a {
     text-decoration: none;
     color: var(--medium);
+    
+   
+}
+
+footer, .navbar-tablet-desktop {
+
+    li a {
+    background-color: var(--light);
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+
+        &:hover {
+            background-color: var(--anchors-hover);
+            transition: all 0.6s ease-in-out
+        }
+    }
 }
 
 .contact-us-link, .get-in-touch-link, .subscribe, .textfield {
@@ -30,6 +46,7 @@ a {
         transition: all ease-in-out 0.2s;
     }
 }
+
 
 .client-logo {
 
@@ -42,10 +59,17 @@ a {
 .service-card, .project-card {
 
     &:hover {
+        -webkit-box-shadow: 15px 20px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 15px 20px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 15px 20px 5px 0px rgba(0,0,0,0.75);
+
         transform: translateY(-10px);
-        transition: transform ease-in-out 0.4s;
+        transition: all ease-in-out 0.4s;
+
     }
 }
+
+
 
 @keyframes rotate-service-img {
     0% {
@@ -84,4 +108,41 @@ a {
     animation: flip-mail-icon 2s infinite;
 }
 
+ .memoji-icon {
+    animation: flip-mail-icon 4s infinite;
+}
+/* @keyframes bounce2 {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
 
+.testimonial-portrait {
+animation: bounce2 2s ease infinite;
+} */
+
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
+
+.testimonial-portrait {
+    animation: bounce 2s ease infinite;
+} 
+
+
+/* @keyframes gelatine {
+from, to { transform: scale(1, 1); }
+25% { transform: scale(0.9, 1.1); }
+50% { transform: scale(1.1, 0.9); }
+75% { transform: scale(0.95, 1.05); }
+}
+
+.memoji-icon {
+animation: gelatine 0.5s infinite;
+} */
