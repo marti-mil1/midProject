@@ -52,6 +52,9 @@
         
                 li:last-child {
                     background-color: var(--default);
+                    -webkit-box-shadow: 0px 17px 30px 0px rgba(0,0,0,0.5);
+                    -moz-box-shadow: 0px 17px 30px 0px rgba(0,0,0,0.5);
+                    box-shadow: 0px 17px 30px 0px rgba(0,0,0,0.5);
                 }
         
                 li:last-child a:last-child {
