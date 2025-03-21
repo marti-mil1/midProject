@@ -21,6 +21,22 @@ body {
 a {
     text-decoration: none;
     color: var(--medium);
+    
+   
+}
+
+footer, .navbar-tablet-desktop {
+
+    li a {
+    background-color: var(--light);
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+
+        &:hover {
+            background-color: var(--anchors-hover);
+            transition: all 0.6s ease-in-out
+        }
+    }
 }
 
 .contact-us-link, .get-in-touch-link, .subscribe, .textfield {
@@ -30,6 +46,7 @@ a {
         transition: all ease-in-out 0.2s;
     }
 }
+
 
 .client-logo {
 
@@ -91,6 +108,9 @@ a {
     animation: flip-mail-icon 2s infinite;
 }
 
+ .memoji-icon {
+    animation: flip-mail-icon 4s infinite;
+}
 /* @keyframes bounce2 {
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
     40% {transform: translateY(-30px);}
