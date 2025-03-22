@@ -252,15 +252,15 @@
                     <p class="body intro regular">Let us help you!</p>
                 </div>
     
-               
-                <form action="/some-url" method="get" class="cta-form">
+                <form name="cta-form" method="post" class="cta-form" data-netlify="true">
 
                     <div class="textfield">
                         <div class="mail-icon"></div>
-                        <input type="email" id="email" class="headline regular email" placeholder="Enter your email">
+                        <input type="email" id="email" name="email" class="headline regular email" placeholder="Enter your email">
                     </div>
 
                     <button type="submit" class="headline medium subscribe">Subscribe</button>
+                    
                 </form>
                
                 
